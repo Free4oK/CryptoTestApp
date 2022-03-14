@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+	font-style: italic;
+	background-color: #75acff;
+	margin-top: 0;
+}
+
+button {
+	font-size: 1em;
+	font-weight: bold;
+	background-color: #6666ff;
+	color: #ffffff;
+	border: 0.2em solid #000066;
+	border-radius: 0.25em;
+	height: 2em;
+}
+
+#update_button {
+	margin-right: 10%;
+}
+
+#crypto_table {
+	width: 96%;
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0.3em;
+}
+
+#crypto_table > thead {
+	font-weight: bold;
+}
+
+#crypto_table > tbody {
+	width: 100%;
+}
+
+#crypto_table td {
+	max-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#crypto_table > tbody tr {
+	border: 2px solid #000000;
+}
+
+#crypto_table > tbody td {
+	font-size: 0.9em;
+}
+
+.positive-percentage {
+	color: #008000;
+}
+
+.negative-percentage {
+	color: #ff0000;
+}
